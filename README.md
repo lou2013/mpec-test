@@ -28,6 +28,7 @@
 ## Project setup
 you need to have a postgresql up and running to run the application. 
 you also need the configs/config.yml in the structure of config-example.yml
+enter the swagger using /docs with data in the config.yml (user:root pass:root)
 ```bash
 $ pnpm install
 $ pnpm migration:run
