@@ -1,0 +1,25 @@
+app:
+  name: mpec
+  description: mpec backend
+
+swagger:
+  auth:
+    - root: root
+    - admin: admin
+
+
+server:
+  host: 0.0.0.0
+  port: 3000
+
+postgresql:
+  main:
+    type: "postgres"
+    host: "postgres"
+    port: 5432
+    database: "mpec_db"
+    username: "mpec_user"
+    password: "mpec_password"
+    timezone: "+03:30"
+    ssl: false
+    autoLoadEntities: true
